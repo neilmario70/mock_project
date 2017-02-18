@@ -1,0 +1,333 @@
+/* bootstrap main page example
+	by Neil Fowler */
+
+
+* {
+	margin:0;
+	padding:0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.mp_page_wrapper {
+	width:96%;
+	max-width:1200px;
+	padding:0 2%;
+	margin:0 auto;
+}
+
+a {text-decoration:none;
+	color:#654b8d;
+	}
+	
+	img {
+		max-width:100%;
+		height:auto;
+		display:block;
+	}
+
+.header_level1 {
+	text-align:center;
+	padding:20px;
+	background-color:#000;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.logo {
+	float:left;
+	margin:0 10px 0 0;
+	font-size:22px;
+	font-weight:900;
+}
+
+span.logo_mobile_menu {
+	display:none;
+	margin:0 10px 0 0;
+	font-size:22px;
+	font-weight:900;
+}
+
+
+.header_level2 {
+	min-height:50px;
+	line-height:50px;
+}
+
+.header_level2:after {
+	content:" ";
+	display:block;
+	clear:both;
+}
+
+.header_level2 ul {
+	display:block;
+	
+}
+
+
+.nav_left {
+	list-style:none;
+	float:left;
+	display:inline-block;
+	}
+	
+.nav_right {
+	list-style:none;
+	float:right;
+	display:inline-block;
+}
+	
+.nav_left li {
+	float:left;
+	padding:0 10px;
+	display:inline-block;
+}
+
+.nav_right li {
+	float:right;
+	padding:0 10px;
+	display:inline-block;
+}
+
+.nav_right li:hover, .nav_left li:hover {
+	background-color:#ccc;
+	-webkit-transition:all 0.4s;
+	transition:all 0.4s;
+	
+}
+
+
+#main_content {
+	background-color:#654b8d;
+	padding:60px 0;
+	text-align:center;
+	}
+
+.main_logo {
+	padding:25px;
+	font-size:80px;
+	border:1px solid #fff;
+	border-radius:20px;
+	width:100px;
+	color:#fff;
+	margin:10px auto;
+	font-weight:900;
+}
+
+#main_content p {
+	font-size:35px;
+	color:#fff;
+	margin:30px;
+	
+}
+
+div.boot_button {
+	display:inline-block;
+	width:auto;
+	padding:20px 30px;
+	border:1px solid #fff;
+	border-radius:10px;
+	margin:20px;
+	color:#fff;
+	
+}
+
+div.boot_button2 {
+	color:#654b8d;
+	border:1px solid #000;
+}
+
+div.boot_button:hover {
+	background-color:#fff;
+	color:#654b8d;
+	-webkit-transition:all 0.4s;
+	transition:all 0.4s;
+}
+
+div.boot_button2:hover {
+	background-color:#654b8d;
+	color:#fff;
+	border:1px solid #654b8d;
+	-webkit-transition:all 0.4s;
+	transition:all 0.4s;
+}
+
+.version {
+	font-size:14px;
+	color:#9783b9;
+	display:block;
+
+}
+
+section#features, section#examples {
+	padding:60px 0;
+	text-align:center;
+}
+
+#features h1, #examples h1 {
+	color:#000;
+	font-size:35px;
+}
+
+#features p, #examples p {
+	font-size:25px;
+	color:#333333;
+}
+
+.half_ruler {
+	width:150px;
+	margin:30px auto;
+	border:1px #f2f2f2 solid;
+	
+}
+
+.full_ruler {
+	border:1px #f2f2f2 solid;
+	
+}
+
+#features ul {
+	list-style:none;
+}
+
+#features ul li {
+	width:32%;
+	float:left;
+}
+
+#features li:nth-of-type(2) {
+	margin:0 2%;
+	
+}
+
+#features ul:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+#features li h3 {
+	font-size:24px;
+	margin:15px 0 10px 0;
+}
+
+#features li p {
+	font-size:19px;
+	line-height:1.6em;
+}
+
+#examples ul {
+	list-style:none;
+}
+
+#examples li {
+	width:25%;
+	float:left;
+}
+
+
+#examples ul:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+#footer {
+	background-color:#2a2730;
+	color:#fff;
+	padding:60px 0;
+}
+
+#footer ul {
+	list-style:none;
+}
+
+#footer li {
+	float:left;
+	margin:0 20px 20px 0;
+}
+
+#footer ul:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+#footer a {
+	color:#fff;
+}
+
+#footer a:hover {
+	text-decoration:underline;
+}
+
+@media only screen and (max-width:980px) {
+	ul.nav_left:after  {
+		content:"";
+		display:block;
+		clear:both;
+		
+		
+	}
+	
+	}
+	
+	
+	@media only screen and (max-width:768px) {
+		
+		.logo {
+			display:none;
+		}
+
+	#examples li {
+	width:50%;
+	}
+	
+	#features ul li {
+		width:100%;
+		float:none;
+	}
+	span.logo_mobile_menu {
+		display:block;
+		float:none;
+		text-align:center;
+		cursor:pointer;
+	}
+	span.logo_mobile_menu:after {
+		content: url(../img/ham.jpg);
+		float:right;
+		vertical-align:middle;
+		padding-top:20px;
+		
+	}
+	.header_level2 ul {
+		float:none;
+		height:0;
+		overflow:hidden;
+	}
+	
+	.header_level2 li {
+		display:block;
+		float:none;
+		border-bottom:1px solid #ccc;
+		text-align:center;
+		
+	}
+	
+	.header_level2 ul.open {
+		display:block;
+		height:auto;
+		
+	}
+	
+	}
+	
+	
+	@media only screen and (max-width:480px) {
+		#examples li {
+			width:100%;
+			margin-bottom:5px;
+		}
+		
+		}
