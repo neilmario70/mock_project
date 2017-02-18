@@ -81,13 +81,13 @@ span.logo_mobile_menu {
 .nav_left li {
 	float:left;
 	padding:0 10px;
-	display:inline-block;
+	
 }
 
 .nav_right li {
 	float:right;
 	padding:0 10px;
-	display:inline-block;
+	
 }
 
 .nav_right li:hover, .nav_left li:hover {
