@@ -69,13 +69,13 @@ span.logo_mobile_menu {
 .nav_left {
 	list-style:none;
 	float:left;
-	display:inline-block;
+	
 	}
 	
 .nav_right {
 	list-style:none;
 	float:right;
-	display:inline-block;
+	
 }
 	
 .nav_left li {
