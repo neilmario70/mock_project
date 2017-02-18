@@ -294,13 +294,14 @@ section#features, section#examples {
 		text-align:center;
 		cursor:pointer;
 	}
-	span.logo_mobile_menu:after {
-		content: url(../img/ham.jpg);
+
+	.logo_mobile_menu i {
 		float:right;
-		vertical-align:middle;
-		padding-top:20px;
+		color: #654b8d;
+		line-height:50px;
 		
 	}
+	
 	.header_level2 ul {
 		float:none;
 		height:0;
